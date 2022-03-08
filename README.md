@@ -22,12 +22,11 @@ The program uses with two hashMaps:
   * SubHashMap holds all the diffrent Words and orignal sentences by the same sentence combination (that displayed as key of MainHashMap)
   
 Each sentence seperated to words list and over them done mapping into HashMap like that:
-		Key - string that contains sentence missing current word
-		
-		Value - subHashMap stores the different words to this sentence.
-				sub hashMap contains : 
-				Key ->  string of current word.
-				Value- string of original sentence
+Key - string that contains sentence missing current word
+Value - subHashMap stores the different words to this sentence.
+SubHashMap contains : 
+SubKey ->  string of current word.
+SubValue- string of original sentence
 				
 For Each sentence combination we look for the same key/sentence in mainHashmap. if is exists we add the different word and org sentence to the HashMap 
 Finnaly we go over the main hash and get all entries that have 2 different words or more and print them to output file.
