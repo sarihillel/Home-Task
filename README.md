@@ -3,7 +3,7 @@ Private Investigation - Home Assigment Solution
 My project include 4 files:
   * Main - basically parameters and Calling to action services
   * ReaderService - get file path and return the file content
-  * MapperReaser- aloritmic service that scan all sentence and map them into hashMap by logic
+  * MapperService- algoritmic service that scan all sentence and map them into hashMap by logic
   * WriterService - over on result of mapperSrvice and print to output file.
 
 In order to run Project:
